@@ -1,10 +1,10 @@
-# Bash Calculator
+<h1> Bash Calculator <h1>
 
 A simple interactive command-line calculator written in Bash.
 
 ---
 
-## Features
+## Features>ا
 
 - Addition, Subtraction, Multiplication
 - Modulo with zero-check

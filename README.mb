@@ -1,58 +1,18 @@
-<h1> Bash Calculator <h1>
-
-A simple interactive command-line calculator written in Bash.
-
----
-
-## Features>ا
-
-- Addition, Subtraction, Multiplication
-- Modulo with zero-check
-- Exponentiation
-- Interactive menu system
+<div align="center">
+  <h1>🚀 Bash Calculator</h1>
+  <p>Simple CLI calculator written in Bash</p>
+</div>
 
 ---
 
-## Requirements
-
-- Bash 3+
-- Linux / macOS / WSL
+## ⚙️ Features
+- Addition
+- Subtraction
+- Multiplication
 
 ---
 
-## Usage
-
+## 📦 Usage
 ```bash
 chmod +x calculator.sh
 ./calculator.sh
-```
-
----
-
-## Example
-
-```text
-Choose: 1
-Enter first number: 5
-Enter second number: 3
-
-5 + 3 = 8
-```
-
----
-
-## Project Structure
-
-```bash
-bash-calculator/
-├── calculator.sh
-├── README.md
-└── LICENSE
-```
-
----
-
-## Notes
-
-- Only integer values are supported
-- `^` is displayed as power but Bash uses `**`

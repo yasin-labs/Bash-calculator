@@ -1,103 +1,58 @@
 # Bash Calculator
 
-A simple interactive command-line calculator written in **Bash**.
+A simple interactive command-line calculator written in Bash.
 
-This project was built to practice Bash scripting fundamentals such as loops, conditionals, arithmetic expansion, user input, and `case` statements.
-
-
+---
 
 ## Features
 
-- Interactive menu
-- Addition
-- Subtraction
-- Multiplication
-- Modulo (with division-by-zero protection)
+- Addition, Subtraction, Multiplication
+- Modulo with zero-check
 - Exponentiation
-- Exit option
-- Repeat calculations without restarting the script
+- Interactive menu system
 
+---
 
 ## Requirements
 
-- Linux, macOS, or WSL
-- Bash 3.0+
+- Bash 3+
+- Linux / macOS / WSL
 
+---
+
+## Usage
+
+```bash
+chmod +x calculator.sh
+./calculator.sh
+```
+
+---
+
+## Example
+
+```text
+Choose: 1
+Enter first number: 5
+Enter second number: 3
+
+5 + 3 = 8
+```
+
+---
 
 ## Project Structure
 
+```bash
 bash-calculator/
 ├── calculator.sh
 ├── README.md
 └── LICENSE
-
-
-## Usage
-
-Make the script executable:
-
-bash
-chmod +x calculator.sh
-
-
-Run it:
-
-bash
-./calculator.sh
-
-
-## Example
-
-text
-1) +
-2) -
-3) *
-4) %
-5) ^
-6) Exit
-
-Choose an option: 1
-
-Enter first number: 5
-Enter second number: 8
-
-5 + 8 = 13
-
-Do you want to continue? (yes/no): no
-
-
-## Concepts Practiced
-
-This project demonstrates:
-
-- Variables
-- User input (`read`)
-- `while` loops
-- `case` statements
-- Arithmetic expansion (`$(( ))`)
-- Conditional statements (`if`)
-- Basic error handling
-
-
-## Known Limitations
-
-- Supports **integers only**
-- No input validation for non-numeric values
-- Bash exponentiation does not support negative exponents
-- `^` is displayed as the exponent operator, while Bash internally uses `**`
-
-
-## Future Improvements
-
-- [ ] Validate numeric input
-- [ ] Support decimal numbers using `bc`
-- [ ] Add command history
-- [ ] Improve menu formatting
-- [ ] Add automated tests
+```
 
 ---
 
-## License
+## Notes
 
-This project is licensed under the **MIT License**.
-See the `LICENSE` file for details.
+- Only integer values are supported
+- `^` is displayed as power but Bash uses `**`
